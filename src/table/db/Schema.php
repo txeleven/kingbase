@@ -1,8 +1,8 @@
 <?php
 
-namespace huaweichenai\kingbase\table\db;
+namespace txeleven\kingbase\table\db;
 
-use huaweichenai\kingbase\utils\StringHelper;
+use txeleven\kingbase\utils\StringHelper;
 use yii\base\InvalidCallException;
 use yii\base\NotSupportedException;
 use yii\db\CheckConstraint;

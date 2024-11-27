@@ -1,8 +1,8 @@
 <?php
 
-namespace huaweichenai\kingbase\base;
+namespace txeleven\kingbase\base;
 
-use huaweichenai\kingbase\SqlContext;
+use txeleven\kingbase\SqlContext;
 
 abstract class BaseGeneralSqlValidateHandler extends BaseHandler
 {

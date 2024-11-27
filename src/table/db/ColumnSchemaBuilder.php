@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace huaweichenai\kingbase\table\db;
+namespace txeleven\kingbase\table\db;
 
 use yii\db\ColumnSchemaBuilder as AbstractColumnSchemaBuilder;
 

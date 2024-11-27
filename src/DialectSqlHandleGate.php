@@ -1,9 +1,9 @@
 <?php
 
-namespace huaweichenai\kingbase;
+namespace txeleven\kingbase;
 
-use huaweichenai\kingbase\table\SqlHandlerFactory;
-use huaweichenai\kingbase\exceptions\DbxException;
+use txeleven\kingbase\table\SqlHandlerFactory;
+use txeleven\kingbase\exceptions\DbxException;
 use PHPSQLParser\PHPSQLCreator;
 use PHPSQLParser\PHPSQLParser;
 

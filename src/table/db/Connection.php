@@ -6,9 +6,9 @@
  * Time: 10:36 AM
  */
 
-namespace huaweichenai\kingbase\table\db;
+namespace txeleven\kingbase\table\db;
 
-use huaweichenai\kingbase\utils\StringHelper;
+use txeleven\kingbase\utils\StringHelper;
 use PDO;
 
 class Connection extends \yii\db\Connection
@@ -25,7 +25,7 @@ class Connection extends \yii\db\Connection
         parent::__construct($config);
 
         // 导入数据处理类
-        $this->schemaMap = array_merge($this->schemaMap, ['pgsql' => 'huaweichenai\kingbase\table\db\Schema']);
+        $this->schemaMap = array_merge($this->schemaMap, ['pgsql' => 'txeleven\kingbase\table\db\Schema']);
         $this->commandMap = array_merge($this->commandMap, ['pgsql' => 'huaweichenai\kingbase\table\db\Command']);
 
         // 保持查询结果均为字符串类型，这里设为返回字符串类型

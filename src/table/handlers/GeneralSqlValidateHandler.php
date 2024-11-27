@@ -1,12 +1,12 @@
 <?php
 
-namespace huaweichenai\kingbase\table\handlers;
+namespace txeleven\kingbase\table\handlers;
 
-use huaweichenai\kingbase\exceptions\DbxException;
-use huaweichenai\kingbase\SqlContext;
-use huaweichenai\kingbase\utils\ValidateHelper;
+use txeleven\kingbase\exceptions\DbxException;
+use txeleven\kingbase\SqlContext;
+use txeleven\kingbase\utils\ValidateHelper;
 
-class GeneralSqlValidateHandler extends \huaweichenai\kingbase\base\BaseGeneralSqlValidateHandler
+class GeneralSqlValidateHandler extends \txeleven\kingbase\base\BaseGeneralSqlValidateHandler
 {
     protected static $unSupportedDbs = ['information_schema', 'mysql', 'performance_schema'];
     protected static $unSupportedFunctions = ['group_concat', 'database'];

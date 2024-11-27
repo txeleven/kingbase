@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace huaweichenai\kingbase\table\db\conditions;
+namespace txeleven\kingbase\table\db\conditions;
 
 use yii\db\ExpressionInterface;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace huaweichenai\kingbase\table\handlers;
+namespace txeleven\kingbase\table\handlers;
 
-use huaweichenai\kingbase\SqlContext;
+use txeleven\kingbase\SqlContext;
 
-class AfterHandler extends \huaweichenai\kingbase\base\BaseAfterHandler
+class AfterHandler extends \txeleven\kingbase\base\BaseAfterHandler
 {
 
     protected function afterHandle(SqlContext $sqlContext)

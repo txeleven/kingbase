@@ -1,6 +1,6 @@
 <?php
 
-namespace huaweichenai\kingbase;
+namespace txeleven\kingbase;
 
 use PHPSQLParser\PHPSQLParser;
 

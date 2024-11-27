@@ -1,8 +1,8 @@
 <?php
 
-namespace huaweichenai\kingbase\table\functions;
+namespace txeleven\kingbase\table\functions;
 
-use huaweichenai\kingbase\base\BaseFunctionTranslator;
+use txeleven\kingbase\base\BaseFunctionTranslator;
 use huaweichenai\kingbase\utils\FunctionHelper;
 
 class Md5FunctionTranslator extends BaseFunctionTranslator

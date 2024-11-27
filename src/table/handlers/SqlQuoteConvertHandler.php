@@ -1,11 +1,11 @@
 <?php
 
-namespace huaweichenai\kingbase\table\handlers;
+namespace txeleven\kingbase\table\handlers;
 
-use huaweichenai\kingbase\SqlContext;
-use huaweichenai\kingbase\utils\QuoteHelper;
+use txeleven\kingbase\SqlContext;
+use txeleven\kingbase\utils\QuoteHelper;
 
-class SqlQuoteConvertHandler extends \huaweichenai\kingbase\base\BaseSqlQuoteConvertHandler
+class SqlQuoteConvertHandler extends \txeleven\kingbase\base\BaseSqlQuoteConvertHandler
 {
     protected function convertSqlQuote(SqlContext $sqlContext)
     {

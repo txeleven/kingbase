@@ -1,10 +1,10 @@
 <?php
 
-namespace huaweichenai\kingbase\base;
+namespace txeleven\kingbase\base;
 
-use huaweichenai\kingbase\interfaces\FunctionTranslatorInterface;
-use huaweichenai\kingbase\interfaces\FunctionValidatorInterface;
-use huaweichenai\kingbase\SqlContext;
+use txeleven\kingbase\interfaces\FunctionTranslatorInterface;
+use txeleven\kingbase\interfaces\FunctionValidatorInterface;
+use txeleven\kingbase\SqlContext;
 
 abstract class BaseFunctionHandler extends BaseHandler
 {

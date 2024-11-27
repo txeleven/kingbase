@@ -1,6 +1,6 @@
 <?php
 
-namespace huaweichenai\kingbase\table\functions;
+namespace txeleven\kingbase\table\functions;
 
 use huaweichenai\kingbase\base\BaseFunctionTranslator;
 use huaweichenai\kingbase\SqlContext;

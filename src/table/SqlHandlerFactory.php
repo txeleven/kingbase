@@ -1,13 +1,13 @@
 <?php
 
-namespace huaweichenai\kingbase\table;
+namespace txeleven\kingbase\table;
 
-use huaweichenai\kingbase\table\handlers\AfterHandler;
-use huaweichenai\kingbase\table\handlers\GeneralSqlValidateHandler;
-use huaweichenai\kingbase\table\handlers\FunctionHandler;
-use huaweichenai\kingbase\table\handlers\SqlQuoteConvertHandler;
+use txeleven\kingbase\table\handlers\AfterHandler;
+use txeleven\kingbase\table\handlers\GeneralSqlValidateHandler;
+use txeleven\kingbase\table\handlers\FunctionHandler;
+use txeleven\kingbase\table\handlers\SqlQuoteConvertHandler;
 
-class SqlHandlerFactory implements \huaweichenai\kingbase\interfaces\SqlHandlerFactoryInterface
+class SqlHandlerFactory implements \txeleven\kingbase\interfaces\SqlHandlerFactoryInterface
 {
 
     /**

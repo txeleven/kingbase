@@ -5,11 +5,11 @@
  * @license https://www.yiiframework.com/license/
  */
 
-namespace huaweichenai\kingbase\table\db;
+namespace txeleven\kingbase\table\db;
 
-use huaweichenai\kingbase\DbDialectType;
-use huaweichenai\kingbase\DialectSqlHandleGate;
-use huaweichenai\kingbase\exceptions\DbxException;
+use txeleven\kingbase\DbDialectType;
+use txeleven\kingbase\DialectSqlHandleGate;
+use txeleven\kingbase\exceptions\DbxException;
 use PHPSQLParser\exceptions\UnsupportedFeatureException;
 
 /**

@@ -1,10 +1,10 @@
 <?php
 
-namespace huaweichenai\kingbase\base;
+namespace txeleven\kingbase\base;
 
-use huaweichenai\kingbase\SqlContext;
+use txeleven\kingbase\SqlContext;
 
-abstract class BaseFunctionTranslator implements \huaweichenai\kingbase\interfaces\FunctionTranslatorInterface
+abstract class BaseFunctionTranslator implements \txeleven\kingbase\interfaces\FunctionTranslatorInterface
 {
 
     public function translate(SqlContext $sqlContext)

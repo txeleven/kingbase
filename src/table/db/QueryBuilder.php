@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace huaweichenai\kingbase\table\db;
+namespace txeleven\kingbase\table\db;
 
 use yii\base\InvalidArgumentException;
 use yii\db\Connection;
@@ -56,8 +56,8 @@ class QueryBuilder extends \yii\db\QueryBuilder
     protected function defaultExpressionBuilders()
     {
         return array_merge(parent::defaultExpressionBuilders(), [
-            'yii\db\conditions\InCondition' => 'huaweichenai\kingbase\table\db\conditions\InConditionBuilder',
-            'yii\db\conditions\LikeCondition' => 'huaweichenai\kingbase\table\db\conditions\LikeConditionBuilder',
+            'yii\db\conditions\InCondition' => 'txeleven\kingbase\table\db\conditions\InConditionBuilder',
+            'yii\db\conditions\LikeCondition' => 'txeleven\kingbase\table\db\conditions\LikeConditionBuilder',
         ]);
     }
 

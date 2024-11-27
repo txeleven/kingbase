@@ -1,17 +1,17 @@
 <?php
 
-namespace huaweichenai\kingbase\table\functions;
+namespace txeleven\kingbase\table\functions;
 
-use huaweichenai\kingbase\base\BaseFunctionTranslator;
-use huaweichenai\kingbase\SqlContext;
-use huaweichenai\kingbase\utils\FunctionHelper;
+use txeleven\kingbase\base\BaseFunctionTranslator;
+use txeleven\kingbase\SqlContext;
+use txeleven\kingbase\utils\FunctionHelper;
 
 class ConvertFunctionTranslator extends BaseFunctionTranslator
 {
     const FUNCTION_NAME = 'CONVERT';
 
     /**
-     * @throws \huaweichenai\kingbase\exceptions\DbxException
+     * @throws \txeleven\kingbase\exceptions\DbxException
      */
     protected function internalTranslate($parsed)
     {
